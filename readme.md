@@ -173,7 +173,7 @@ List of observed exact masses (m/z values) to annotate.
 - Simple array of floats
 - Interpreted as neutral monoisotopic masses (adjust manually for adducts if needed)
 
-### `exp_peaks.json` (optional)
+### `exp_peaks.json` (optional, in development YYMV)
 
 Experimental peak list used for NNLS abundance estimation.
 
