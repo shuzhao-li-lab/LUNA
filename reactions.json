@@ -1,0 +1,25 @@
+{
+    "common": {
+        "OH_Hydroxylation": {"O": 1, "H": 1},
+        "H2_Desaturation": {"H": -2},
+        "N_Dealkylation": {"C": -1, "H": -3},
+        "O_Dealkylation": {"C": -1, "H": -2, "O": -1},
+        "Defluorination": {"F": -1, "H": 1},
+        "Dechlorination": {"Cl": -1, "H": 1},
+        "Acetylation": {"C": 2, "H": 2, "O": 1}
+    },
+    "rare": {
+        "Glucuronidation": {
+            "delta": {"C": 6, "H": 8, "O": 6},
+            "limit": 2
+        },
+        "Sulfation": {
+            "delta": {"S": 1, "O": 4},
+            "limit": 2
+        },
+        "GSH_Conjugation": {
+            "delta": {"C": 10, "H": 17, "N": 3, "O": 6, "S": 1},
+            "limit": 1
+        }
+    }
+}
